@@ -1,0 +1,20 @@
+{
+  "name": "atv01-html-css",
+  "version": "1.0.0",
+  "description": "Arquivos-base para a atividade.",
+  "main": "index.html",
+  "scripts": {
+    
+    "test": "npx htmlhint src/*.html; npx stylelint src/*.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csslint": "^1.0.5",
+    "htmlhint": "^1.1.4"
+  },
+  "devDependencies": {
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0"
+  }
+}
